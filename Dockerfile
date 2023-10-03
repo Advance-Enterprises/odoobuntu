@@ -7,7 +7,7 @@ ENV XDG_DATA_HOME=/srv/odoo/filestore
 ENV ODOO_RC=/srv/odoo/.odoorc
 
 # Expose the default ports for browser and web traffic.
-EXPOSE 8069 8071 8072
+EXPOSE 80 443 8069 8071 8072
 
 # Create a persistent volume for storing the odoo source.
 # Create a persistent volume for storing cached and/or user uploaded files.
