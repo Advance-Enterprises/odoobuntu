@@ -1,0 +1,8 @@
+[options]
+proxy_mode=True
+x_sendfile=True
+http_interface=127.0.0.1
+syslog=True
+log_handler=:ERROR
+db_host=10.0.1.1
+no_database_list=True
